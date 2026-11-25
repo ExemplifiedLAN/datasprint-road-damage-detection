@@ -1,0 +1,20 @@
+{
+  "checkpoint": "best.pt",
+  "validation_scores": [
+    {
+      "image_size": 640,
+      "accuracy_score": 45.27
+    },
+    {
+      "image_size": 768,
+      "accuracy_score": 44.64
+    }
+  ],
+  "selected_inference": {
+    "image_size": 640,
+    "accuracy_score": 45.27,
+    "confidence_floor": 0.001,
+    "iou": 0.7,
+    "max_det": 100
+  }
+}
